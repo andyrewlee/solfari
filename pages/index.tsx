@@ -24,7 +24,7 @@ const Home: NextPage = () => {
           <a href="https://twitter.com/SolfariNFT">
             <FontAwesomeIcon icon={['fab', 'twitter']} />
           </a>
-          <a href="https://discord.gg/SolfariNFT">
+          <a href="https://discord.gg/4KS5XhGtE4">
             <FontAwesomeIcon icon={['fab', 'discord']} />
           </a>
           <a href="https://instagram.com/SolfariNFT">
