@@ -50,7 +50,7 @@ const Home: NextPage = () => {
         </div>
         <p className={styles.description}>Coming soon</p>
       </main>
-      <img className={styles.bottomStripe} src="/stripe-left.png" />
+      <img className={styles.bottomStripe} src="/stripe.png" />
     </div>
   );
 }
