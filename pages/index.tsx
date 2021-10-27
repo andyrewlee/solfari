@@ -1,12 +1,12 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import { faDiscord, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faDiscord, faInstagram, faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import styles from '../styles/Home.module.css'
 
-library.add(faTwitter, faDiscord, faInstagram);
+library.add(faTwitter, faDiscord, faInstagram, faGithub);
 
 const Home: NextPage = () => {
   return (
@@ -46,6 +46,9 @@ const Home: NextPage = () => {
           </a>
           <a href="https://instagram.com/SolfariNFT">
             <FontAwesomeIcon icon={["fab", "instagram"]} />
+          </a>
+          <a href="https://github.com/andyrewlee/solfari">
+            <FontAwesomeIcon icon={["fab", "github"]} />
           </a>
         </div>
         <p className={styles.description}>Coming soon</p>
